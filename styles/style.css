@@ -1,10 +1,13 @@
-.container{
-    width: 1280px;
-    margin: auto;
-    text-align: center;
+.container {
+	width: 66%;
+	margin: auto;
+	text-align: center;
 }
 body{
     font-family: "Poppins", sans-serif;
+}
+header {
+	padding-top: 70px;
 }
 .content-box {
 	width: 65%;
@@ -18,7 +21,7 @@ body{
 }
 .content-box p {
 	font-size: 20px;
-	line-height: 2rem;
+	line-height: 2.2rem;
 	font-weight: 400;
 	color: #6C727F;
 	margin-bottom: 64px;
@@ -53,4 +56,34 @@ body{
 }
 .contact-form form span {
 	font-size: 13px;
+}
+@media screen and (max-width: 1024px) {
+	.container{
+		width: 80%;
+	}
+	header {
+		padding-top: 30px;
+	}
+	.content-box {
+		width: 95%;
+		margin: auto;
+	}
+	.content-box h1 {
+		font-size: 40px;
+	}
+	.contact-form {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.container {
+		width: 95%;
+	}
+	.content-box p {
+		margin-bottom: 40px;
+	}
+	.content-box {
+		width: 95%;
+		margin: auto;
+	}
 }
